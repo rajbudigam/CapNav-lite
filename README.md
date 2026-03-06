@@ -2,7 +2,7 @@
 
 CapNav-Lite is a lightweight personalization layer for ROS 2 Navigation (Nav2) that adapts wheelchair-style navigation to an individual user's motor profile in minutes, using simple tabular reinforcement learning and a capability-aware prior.
 
-This repository is a starter skeleton that matches the deliverables described in the CapNav-Lite v0.1 funder pack:
+This repository is a starter skeleton that matches the deliverables described in the CapNav-Lite v0.1 pack:
 - Nav2 plugin (controller-first, planner optional)
 - 3-minute calibration tool (CLI and wizard-ready)
 - Safety shell (runtime checks + shared-control fallback hooks)
