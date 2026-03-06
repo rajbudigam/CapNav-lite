@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<library path="capnav_lite_controller">
+  <class
+    name="capnav_lite/CapNavLiteController"
+    type="capnav_lite::CapNavLiteController"
+    base_class_type="nav2_core::Controller">
+    <description>
+      Capability-aware Nav2 controller skeleton that consumes a user profile JSON.
+    </description>
+  </class>
+</library>
