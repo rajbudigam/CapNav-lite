@@ -1,0 +1,10 @@
+<library path="capnav_lite_controller">
+  <class
+    name="capnav_lite/CapNavLiteController"
+    type="capnav_lite::CapNavLiteController"
+    base_class_type="nav2_core::Controller">
+    <description>
+      Capability-aware local controller for assistive navigation.
+    </description>
+  </class>
+</library>

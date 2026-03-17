@@ -1,0 +1,122 @@
+{
+  "mean_delta_efficiency": 0.5971,
+  "mean_delta_reach": 0.625,
+  "per_seed": [
+    {
+      "delta_efficiency": 0.5218,
+      "delta_reach": 0.5833,
+      "pretrained": {
+        "final_return": -266.5083,
+        "path_efficiency": 0.5966,
+        "reach": 0.8333,
+        "spl": 0.5966,
+        "steps": 91.4583
+      },
+      "scratch": {
+        "final_return": -891.075,
+        "path_efficiency": 0.0748,
+        "reach": 0.25,
+        "spl": 0.0748,
+        "steps": 256.5833
+      },
+      "seed": 7
+    },
+    {
+      "delta_efficiency": 0.687,
+      "delta_reach": 0.7084,
+      "pretrained": {
+        "final_return": -159.3458,
+        "path_efficiency": 0.7455,
+        "reach": 0.9167,
+        "spl": 0.7455,
+        "steps": 61.875
+      },
+      "scratch": {
+        "final_return": -926.575,
+        "path_efficiency": 0.0585,
+        "reach": 0.2083,
+        "spl": 0.0585,
+        "steps": 264.7083
+      },
+      "seed": 13
+    },
+    {
+      "delta_efficiency": 0.4854,
+      "delta_reach": 0.5833,
+      "pretrained": {
+        "final_return": -269.2583,
+        "path_efficiency": 0.5524,
+        "reach": 0.8333,
+        "spl": 0.5524,
+        "steps": 87.3333
+      },
+      "scratch": {
+        "final_return": -911.8292,
+        "path_efficiency": 0.067,
+        "reach": 0.25,
+        "spl": 0.067,
+        "steps": 256.25
+      },
+      "seed": 42
+    },
+    {
+      "delta_efficiency": 0.6085,
+      "delta_reach": 0.625,
+      "pretrained": {
+        "final_return": -140.5417,
+        "path_efficiency": 0.7034,
+        "reach": 0.9167,
+        "spl": 0.7034,
+        "steps": 63.125
+      },
+      "scratch": {
+        "final_return": -879.2,
+        "path_efficiency": 0.0949,
+        "reach": 0.2917,
+        "spl": 0.0949,
+        "steps": 245.5
+      },
+      "seed": 99
+    },
+    {
+      "delta_efficiency": 0.6827,
+      "delta_reach": 0.625,
+      "pretrained": {
+        "final_return": -128.0292,
+        "path_efficiency": 0.7688,
+        "reach": 0.9167,
+        "spl": 0.7688,
+        "steps": 52.0417
+      },
+      "scratch": {
+        "final_return": -924.3667,
+        "path_efficiency": 0.0861,
+        "reach": 0.2917,
+        "spl": 0.0861,
+        "steps": 255.0833
+      },
+      "seed": 123
+    }
+  ],
+  "pretrained_mean": {
+    "final_return": -192.7367,
+    "path_efficiency": 0.6733,
+    "reach": 0.8833,
+    "spl": 0.6733,
+    "steps": 71.1667
+  },
+  "scratch_mean": {
+    "final_return": -906.6092,
+    "path_efficiency": 0.0763,
+    "reach": 0.2583,
+    "spl": 0.0763,
+    "steps": 255.625
+  },
+  "seeds": [
+    7,
+    13,
+    42,
+    99,
+    123
+  ]
+}

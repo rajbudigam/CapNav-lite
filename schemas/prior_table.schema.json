@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capnav-lite/schemas/prior_table.schema.json",
+  "title": "CapabilityAwarePrior",
+  "type": "object",
+  "required": ["q", "visits"],
+  "properties": {
+    "q": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "patternProperties": {
+          "^[A-Z]+$": {"type": "number"}
+        }
+      }
+    },
+    "visits": {
+      "type": "object",
+      "additionalProperties": {"type": "integer", "minimum": 0}
+    }
+  },
+  "additionalProperties": false
+}

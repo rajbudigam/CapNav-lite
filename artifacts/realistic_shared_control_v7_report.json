@@ -1,0 +1,56 @@
+{
+  "benchmark": {
+    "scenario_seeds": [100, 101, 102, 103, 104],
+    "user_seeds": [3, 7, 11],
+    "user_models": ["pursuit", "autoregressive"],
+    "n_episodes": 30
+  },
+  "baseline": {
+    "n_episodes": 30,
+    "n_scenarios": 5,
+    "success_rate": {"mean": 0.3, "ci95_low": 0.13333333333333333, "ci95_high": 0.4666666666666667, "scenario_se": 0.19999999999999998},
+    "collision_rate": {"mean": 0.3333333333333333, "ci95_low": 0.16666666666666666, "ci95_high": 0.5, "scenario_se": 0.21081851067789195},
+    "path_efficiency": {"mean": 0.3, "ci95_low": 0.16666666666666666, "ci95_high": 0.4666666666666667, "scenario_se": 0.19999999999999998},
+    "intervention_rate": {"mean": 0.36466885043849745, "ci95_low": 0.24468332177811503, "ci95_high": 0.5036557695193549, "scenario_se": 0.17445955032357535},
+    "min_clearance_m": {"mean": 0.2533333333333333, "ci95_low": 0.17166666666666666, "ci95_high": 0.3333333333333333, "scenario_se": 0.10269290790182803},
+    "mean_steps": {"mean": 133.93333333333334, "ci95_low": 122.6, "ci95_high": 145.86666666666667, "scenario_se": 12.438805766185467}
+  },
+  "improved": {
+    "n_episodes": 30,
+    "n_scenarios": 5,
+    "success_rate": {"mean": 0.26666666666666666, "ci95_low": 0.13333333333333333, "ci95_high": 0.43333333333333335, "scenario_se": 0.1130388330520878},
+    "collision_rate": {"mean": 0.4, "ci95_low": 0.23333333333333334, "ci95_high": 0.5666666666666667, "scenario_se": 0.21473497877875208},
+    "path_efficiency": {"mean": 0.26666666666666666, "ci95_low": 0.13333333333333333, "ci95_high": 0.43333333333333335, "scenario_se": 0.1130388330520878},
+    "intervention_rate": {"mean": 0.3131193752995766, "ci95_low": 0.24509248648887252, "ci95_high": 0.38711929851412147, "scenario_se": 0.06342127742910539},
+    "min_clearance_m": {"mean": 0.29845416357193766, "ci95_low": 0.21668446483599896, "ci95_high": 0.3675881693193079, "scenario_se": 0.0787177505486785},
+    "mean_steps": {"mean": 127.63333333333334, "ci95_low": 113.83333333333333, "ci95_high": 139.8, "scenario_se": 13.046540622794312}
+  },
+  "delta_success_rate": {"mean": -0.03333333333333333, "ci95_low": -0.23333333333333334, "ci95_high": 0.16666666666666666, "scenario_se": 0.13333333333333333},
+  "delta_collision_rate": {"mean": 0.06666666666666667, "ci95_low": 0.0, "ci95_high": 0.16666666666666666, "scenario_se": 0.0408248290463863},
+  "delta_path_efficiency": {"mean": -0.03333333333333333, "ci95_low": -0.23333333333333334, "ci95_high": 0.16666666666666666, "scenario_se": 0.13333333333333333},
+  "selected_params": {
+    "horizon": 4,
+    "samples": 18,
+    "risk_penalty": 4.0,
+    "margin": 0.12,
+    "agreement": 0.55,
+    "cp_limit_penalty": 65.0,
+    "cp_penalty": 16.0,
+    "clearance_penalty": 8.0,
+    "clearance_buffer_m": 0.1,
+    "margin_intervention_gain": 0.12,
+    "margin_reliability_gain": 0.06,
+    "hard_cp_limit": 0.028,
+    "soft_cp_limit": 0.018,
+    "blend_gain": 0.55,
+    "smooth_gain": 0.2,
+    "yield_hold_steps": 2,
+    "ttc_stop_s": 0.9,
+    "ttc_slow_s": 1.35
+  },
+  "notes": [
+    "Five held-out layout families, two synthetic pilot models, and thirty evaluation episodes.",
+    "Includes a trace replay interface for plugging in real joystick traces later, but no real trace dataset was available in this environment.",
+    "Under this stronger benchmark, the upgraded controller improved clearance and reduced intervention rate, but did not beat baseline on success or collision rate."
+  ]
+}

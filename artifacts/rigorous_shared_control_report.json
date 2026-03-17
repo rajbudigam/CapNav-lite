@@ -1,0 +1,356 @@
+{
+  "baseline": {
+    "n_episodes": 30,
+    "n_scenarios": 5,
+    "success_rate": {
+      "mean": 0.3,
+      "ci95_low": 0.13333333333333333,
+      "ci95_high": 0.4666666666666667,
+      "scenario_se": 0.19999999999999998
+    },
+    "collision_rate": {
+      "mean": 0.3333333333333333,
+      "ci95_low": 0.16666666666666666,
+      "ci95_high": 0.5,
+      "scenario_se": 0.21081851067789195
+    },
+    "path_efficiency": {
+      "mean": 0.3,
+      "ci95_low": 0.16666666666666666,
+      "ci95_high": 0.4666666666666667,
+      "scenario_se": 0.19999999999999998
+    },
+    "intervention_rate": {
+      "mean": 0.36466885043849745,
+      "ci95_low": 0.24468332177811503,
+      "ci95_high": 0.5036557695193549,
+      "scenario_se": 0.17445955032357535
+    },
+    "min_clearance_m": {
+      "mean": 0.2533333333333333,
+      "ci95_low": 0.17166666666666666,
+      "ci95_high": 0.3333333333333333,
+      "scenario_se": 0.10269290790182803
+    },
+    "mean_steps": {
+      "mean": 133.93333333333334,
+      "ci95_low": 122.6,
+      "ci95_high": 145.86666666666667,
+      "scenario_se": 12.438805766185467
+    }
+  },
+  "improved": {
+    "n_episodes": 30,
+    "n_scenarios": 5,
+    "success_rate": {
+      "mean": 0.3333333333333333,
+      "ci95_low": 0.16666666666666666,
+      "ci95_high": 0.5,
+      "scenario_se": 0.15811388300841897
+    },
+    "collision_rate": {
+      "mean": 0.4,
+      "ci95_low": 0.23333333333333334,
+      "ci95_high": 0.5666666666666667,
+      "scenario_se": 0.21473497877875208
+    },
+    "path_efficiency": {
+      "mean": 0.3333333333333333,
+      "ci95_low": 0.16666666666666666,
+      "ci95_high": 0.5,
+      "scenario_se": 0.15811388300841897
+    },
+    "intervention_rate": {
+      "mean": 0.49822242178704423,
+      "ci95_low": 0.4221247429767612,
+      "ci95_high": 0.5831797951126095,
+      "scenario_se": 0.09418353211503888
+    },
+    "min_clearance_m": {
+      "mean": 0.3494809343303412,
+      "ci95_low": 0.27863839731102774,
+      "ci95_high": 0.4094511687527686,
+      "scenario_se": 0.06282284405055127
+    },
+    "mean_steps": {
+      "mean": 127.16666666666667,
+      "ci95_low": 114.9,
+      "ci95_high": 138.63333333333333,
+      "scenario_se": 14.041110275821415
+    }
+  },
+  "delta_success_rate": {
+    "mean": 0.03333333333333333,
+    "ci95_low": -0.13333333333333333,
+    "ci95_high": 0.2,
+    "scenario_se": 0.0816496580927726
+  },
+  "delta_collision_rate": {
+    "mean": 0.06666666666666667,
+    "ci95_low": -0.06666666666666667,
+    "ci95_high": 0.16666666666666666,
+    "scenario_se": 0.0408248290463863
+  },
+  "delta_path_efficiency": {
+    "mean": 0.03333333333333333,
+    "ci95_low": -0.13333333333333333,
+    "ci95_high": 0.2,
+    "scenario_se": 0.0816496580927726
+  },
+  "selected_params": {
+    "horizon": 4,
+    "samples": 26,
+    "risk_penalty": 4.2,
+    "margin": 0.14,
+    "agreement": 0.6,
+    "cp_limit_penalty": 60.0,
+    "cp_penalty": 14.0,
+    "clearance_penalty": 7.0,
+    "clearance_buffer_m": 0.1,
+    "margin_intervention_gain": 0.12,
+    "margin_reliability_gain": 0.06
+  },
+  "train_objective": 1.502497980669986,
+  "train_candidates": [
+    {
+      "horizon": 4,
+      "samples": 22,
+      "risk_penalty": 4.0,
+      "margin": 0.16,
+      "agreement": 0.6,
+      "cp_limit_penalty": 55.0,
+      "cp_penalty": 12.0,
+      "clearance_penalty": 6.0,
+      "clearance_buffer_m": 0.1,
+      "margin_intervention_gain": 0.12,
+      "margin_reliability_gain": 0.06,
+      "objective": -0.10252212186727892,
+      "success_rate": 0.3333333333333333,
+      "collision_rate": 0.3333333333333333,
+      "path_efficiency": 0.3333333333333333,
+      "intervention_rate": 0.4258256124284539,
+      "min_clearance_m": 0.34120189581300214
+    },
+    {
+      "horizon": 4,
+      "samples": 26,
+      "risk_penalty": 4.2,
+      "margin": 0.14,
+      "agreement": 0.6,
+      "cp_limit_penalty": 60.0,
+      "cp_penalty": 14.0,
+      "clearance_penalty": 7.0,
+      "clearance_buffer_m": 0.1,
+      "margin_intervention_gain": 0.12,
+      "margin_reliability_gain": 0.06,
+      "objective": 1.502497980669986,
+      "success_rate": 0.5,
+      "collision_rate": 0.3333333333333333,
+      "path_efficiency": 0.5,
+      "intervention_rate": 0.4005075201401249,
+      "min_clearance_m": 0.3719163880767007
+    }
+  ],
+  "sensitivity": {
+    "perturbation_scale": 0.2,
+    "samples": 2,
+    "success_rate_mean": 0.5,
+    "success_rate_min": 0.5,
+    "collision_rate_mean": 0.0,
+    "collision_rate_max": 0.0,
+    "path_efficiency_mean": 0.5
+  },
+  "train_scenarios": [
+    0,
+    1,
+    2
+  ],
+  "test_scenarios": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "user_seeds": [
+    3,
+    7,
+    11
+  ],
+  "user_models": [
+    "pursuit",
+    "autoregressive"
+  ],
+  "per_user_model": {
+    "pursuit": {
+      "baseline": {
+        "n_episodes": 15,
+        "n_scenarios": 5,
+        "success_rate": {
+          "mean": 0.2,
+          "ci95_low": 0.0,
+          "ci95_high": 0.4,
+          "scenario_se": 0.19999999999999998
+        },
+        "collision_rate": {
+          "mean": 0.4,
+          "ci95_low": 0.13333333333333333,
+          "ci95_high": 0.6666666666666666,
+          "scenario_se": 0.24494897427831777
+        },
+        "path_efficiency": {
+          "mean": 0.2,
+          "ci95_low": 0.0,
+          "ci95_high": 0.4666666666666667,
+          "scenario_se": 0.19999999999999998
+        },
+        "intervention_rate": {
+          "mean": 0.38776648490909077,
+          "ci95_low": 0.22758090816818916,
+          "ci95_high": 0.5743707951324758,
+          "scenario_se": 0.174692777810525
+        },
+        "min_clearance_m": {
+          "mean": 0.24666666666666667,
+          "ci95_low": 0.14,
+          "ci95_high": 0.35666666666666663,
+          "scenario_se": 0.10506611674982991
+        },
+        "mean_steps": {
+          "mean": 127.46666666666667,
+          "ci95_low": 112.66666666666667,
+          "ci95_high": 141.8,
+          "scenario_se": 16.20754282562426
+        }
+      },
+      "improved": {
+        "n_episodes": 15,
+        "n_scenarios": 5,
+        "success_rate": {
+          "mean": 0.3333333333333333,
+          "ci95_low": 0.13333333333333333,
+          "ci95_high": 0.6,
+          "scenario_se": 0.21081851067789195
+        },
+        "collision_rate": {
+          "mean": 0.4,
+          "ci95_low": 0.13333333333333333,
+          "ci95_high": 0.6666666666666666,
+          "scenario_se": 0.19436506316151
+        },
+        "path_efficiency": {
+          "mean": 0.3333333333333333,
+          "ci95_low": 0.06666666666666667,
+          "ci95_high": 0.6,
+          "scenario_se": 0.21081851067789195
+        },
+        "intervention_rate": {
+          "mean": 0.4916954068463356,
+          "ci95_low": 0.36371579443947866,
+          "ci95_high": 0.629225051264525,
+          "scenario_se": 0.12843046990217055
+        },
+        "min_clearance_m": {
+          "mean": 0.3179554662904387,
+          "ci95_low": 0.23116439777215406,
+          "ci95_high": 0.4207779167201792,
+          "scenario_se": 0.08193017025069775
+        },
+        "mean_steps": {
+          "mean": 120.73333333333333,
+          "ci95_low": 106.53333333333333,
+          "ci95_high": 137.93333333333334,
+          "scenario_se": 14.354403118516942
+        }
+      }
+    },
+    "autoregressive": {
+      "baseline": {
+        "n_episodes": 15,
+        "n_scenarios": 5,
+        "success_rate": {
+          "mean": 0.4,
+          "ci95_low": 0.2,
+          "ci95_high": 0.6666666666666666,
+          "scenario_se": 0.24494897427831777
+        },
+        "collision_rate": {
+          "mean": 0.26666666666666666,
+          "ci95_low": 0.06666666666666667,
+          "ci95_high": 0.5333333333333333,
+          "scenario_se": 0.19436506316151
+        },
+        "path_efficiency": {
+          "mean": 0.4,
+          "ci95_low": 0.13333333333333333,
+          "ci95_high": 0.6666666666666666,
+          "scenario_se": 0.24494897427831777
+        },
+        "intervention_rate": {
+          "mean": 0.34157121596790413,
+          "ci95_low": 0.1771200904111448,
+          "ci95_high": 0.5190221361665024,
+          "scenario_se": 0.17867171900575468
+        },
+        "min_clearance_m": {
+          "mean": 0.25999999999999995,
+          "ci95_low": 0.15666666666666665,
+          "ci95_high": 0.3666666666666666,
+          "scenario_se": 0.1050925518028963
+        },
+        "mean_steps": {
+          "mean": 140.4,
+          "ci95_low": 124.46666666666667,
+          "ci95_high": 152.06666666666666,
+          "scenario_se": 10.478231402929282
+        }
+      },
+      "improved": {
+        "n_episodes": 15,
+        "n_scenarios": 5,
+        "success_rate": {
+          "mean": 0.3333333333333333,
+          "ci95_low": 0.13333333333333333,
+          "ci95_high": 0.5333333333333333,
+          "scenario_se": 0.14907119849998596
+        },
+        "collision_rate": {
+          "mean": 0.4,
+          "ci95_low": 0.13333333333333333,
+          "ci95_high": 0.6666666666666666,
+          "scenario_se": 0.24494897427831777
+        },
+        "path_efficiency": {
+          "mean": 0.3333333333333333,
+          "ci95_low": 0.13333333333333333,
+          "ci95_high": 0.6,
+          "scenario_se": 0.14907119849998596
+        },
+        "intervention_rate": {
+          "mean": 0.5047494367277527,
+          "ci95_low": 0.42991534691629685,
+          "ci95_high": 0.5889622915460831,
+          "scenario_se": 0.07482703492743537
+        },
+        "min_clearance_m": {
+          "mean": 0.3810064023702438,
+          "ci95_low": 0.3115209889130805,
+          "ci95_high": 0.45056868364395747,
+          "scenario_se": 0.06163492530076278
+        },
+        "mean_steps": {
+          "mean": 133.6,
+          "ci95_low": 118.4,
+          "ci95_high": 147.93333333333334,
+          "scenario_se": 14.87779852292969
+        }
+      }
+    }
+  },
+  "notes": [
+    "Held-out evaluation covers five layout families rather than one clinic template.",
+    "Held-out evaluation includes a separate autoregressive pilot model, but it is still synthetic and not a real joystick-trace dataset.",
+    "Reports bootstrap 95% confidence intervals and scenario-level standard error.",
+    "Runs a quick \u00b120% sensitivity probe on the controller constants that were previously hard-coded."
+  ]
+}

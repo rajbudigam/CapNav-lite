@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://capnav-lite/schemas/user_profile.schema.json",
+  "title": "CapabilityProfile",
+  "type": "object",
+  "required": [
+    "user_id",
+    "max_linear_speed_mps",
+    "max_angular_speed_rad_s",
+    "comfort_linear_speed_mps",
+    "comfort_angular_speed_rad_s",
+    "turning_cost",
+    "backtracking_cost",
+    "slip_probability",
+    "reaction_time_s",
+    "clearance_margin_m",
+    "joystick_deadband"
+  ],
+  "properties": {
+    "user_id": {"type": "string", "minLength": 1},
+    "max_linear_speed_mps": {"type": "number", "minimum": 0.0},
+    "max_angular_speed_rad_s": {"type": "number", "minimum": 0.0},
+    "comfort_linear_speed_mps": {"type": "number", "minimum": 0.0},
+    "comfort_angular_speed_rad_s": {"type": "number", "minimum": 0.0},
+    "turning_cost": {"type": "number", "minimum": 0.0},
+    "backtracking_cost": {"type": "number", "minimum": 0.0},
+    "slip_probability": {"type": "number", "minimum": 0.0, "maximum": 0.6},
+    "reaction_time_s": {"type": "number", "minimum": 0.0},
+    "clearance_margin_m": {"type": "number", "minimum": 0.0},
+    "joystick_deadband": {"type": "number", "minimum": 0.0},
+    "notes": {"type": "string"}
+  },
+  "additionalProperties": false
+}

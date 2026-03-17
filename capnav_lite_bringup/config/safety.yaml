@@ -1,0 +1,3 @@
+capnav_safety_monitor:
+  ros__parameters:
+    profile_path: "profiles/default_adult.json"

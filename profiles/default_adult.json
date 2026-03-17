@@ -1,0 +1,14 @@
+{
+  "backtracking_cost": 1.1,
+  "clearance_margin_m": 0.3,
+  "comfort_angular_speed_rad_s": 0.42,
+  "comfort_linear_speed_mps": 0.25,
+  "joystick_deadband": 0.05,
+  "max_angular_speed_rad_s": 0.75,
+  "max_linear_speed_mps": 0.45,
+  "notes": "Example indoor profile for supervised simulator and bench testing.",
+  "reaction_time_s": 0.35,
+  "slip_probability": 0.08,
+  "turning_cost": 1.25,
+  "user_id": "example-adult"
+}

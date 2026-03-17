@@ -1,0 +1,35 @@
+{
+  "benchmark": {
+    "scenario_seeds": [100, 101, 102, 103],
+    "user_seeds": [3, 7, 11],
+    "user_models": ["pursuit", "autoregressive"],
+    "n_episodes": 24
+  },
+  "baseline": {
+    "n_episodes": 24,
+    "n_scenarios": 4,
+    "success_rate": {"mean": 0.125, "ci95_low": 0.0, "ci95_high": 0.2916666666666667, "scenario_se": 0.125},
+    "collision_rate": {"mean": 0.4166666666666667, "ci95_low": 0.25, "ci95_high": 0.5833333333333334, "scenario_se": 0.25},
+    "path_efficiency": {"mean": 0.125, "ci95_low": 0.0, "ci95_high": 0.25, "scenario_se": 0.125},
+    "intervention_rate": {"mean": 0.451365983721151, "ci95_low": 0.31104708991159996, "ci95_high": 0.5927203724964919, "scenario_se": 0.19544710187871778},
+    "min_clearance_m": {"mean": 0.1708333333333333, "ci95_low": 0.11041666666666666, "ci95_high": 0.2333333333333333, "scenario_se": 0.0789470638395684},
+    "mean_steps": {"mean": 130.75, "ci95_low": 117.16666666666667, "ci95_high": 144.58333333333334, "scenario_se": 15.523652801331789}
+  },
+  "improved": {
+    "n_episodes": 24,
+    "n_scenarios": 4,
+    "success_rate": {"mean": 0.25, "ci95_low": 0.08333333333333333, "ci95_high": 0.4166666666666667, "scenario_se": 0.15957118462605635},
+    "collision_rate": {"mean": 0.4166666666666667, "ci95_low": 0.20833333333333334, "ci95_high": 0.5833333333333334, "scenario_se": 0.25},
+    "path_efficiency": {"mean": 0.25, "ci95_low": 0.08333333333333333, "ci95_high": 0.4583333333333333, "scenario_se": 0.15957118462605635},
+    "intervention_rate": {"mean": 0.33878564606285333, "ci95_low": 0.24276096716579576, "ci95_high": 0.43726234078030385, "scenario_se": 0.12561684448218582},
+    "min_clearance_m": {"mean": 0.28996236535522363, "ci95_low": 0.22319520392352432, "ci95_high": 0.360924083528285, "scenario_se": 0.06767933694339773},
+    "mean_steps": {"mean": 121.0, "ci95_low": 105.83333333333333, "ci95_high": 135.16666666666666, "scenario_se": 17.573259357456838}
+  },
+  "delta_success_rate": {"mean": 0.125, "ci95_low": -0.08333333333333333, "ci95_high": 0.3333333333333333, "scenario_se": 0.07978559231302818},
+  "delta_collision_rate": {"mean": 0.0, "ci95_low": -0.125, "ci95_high": 0.125, "scenario_se": 0.0},
+  "delta_path_efficiency": {"mean": 0.125, "ci95_low": -0.08333333333333333, "ci95_high": 0.3333333333333333, "scenario_se": 0.07978559231302818},
+  "notes": [
+    "Smaller development holdout slice that showed a positive signal before the stricter 30-episode benchmark.",
+    "Useful for debugging and iteration, not the main result."
+  ]
+}

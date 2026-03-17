@@ -1,0 +1,25 @@
+{
+  "config": {
+    "adaptation_episodes": 60,
+    "eval_maps": 24,
+    "meta_tasks": 20,
+    "obstacle_probability": 0.3,
+    "seed": 13
+  },
+  "delta_efficiency": 0.687,
+  "delta_reach": 0.7084,
+  "pretrained": {
+    "final_return": -159.3458,
+    "path_efficiency": 0.7455,
+    "reach": 0.9167,
+    "spl": 0.7455,
+    "steps": 61.875
+  },
+  "scratch": {
+    "final_return": -926.575,
+    "path_efficiency": 0.0585,
+    "reach": 0.2083,
+    "spl": 0.0585,
+    "steps": 264.7083
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "delta_efficiency": 0.0833,
+  "delta_reach": 0.0834,
+  "pretrained": {
+    "final_return": -351.9792,
+    "path_efficiency": 0.1538,
+    "reach": 0.1667,
+    "spl": 0.1538,
+    "steps": 364.4167
+  },
+  "scratch": {
+    "final_return": -394.9173,
+    "path_efficiency": 0.0705,
+    "reach": 0.0833,
+    "spl": 0.0705,
+    "steps": 398.75
+  }
+}

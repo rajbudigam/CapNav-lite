@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "capnav-lite-research-grade"
+version = "0.2.0"
+description = "Capability-aware assistive navigation core, benchmark, and ROS integration assets"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+  {name = "Jasraj Budigam"},
+  {name = "OpenAI assisted implementation"}
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.setuptools]
+packages = ["capnav_lite_core"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+addopts = "-q"

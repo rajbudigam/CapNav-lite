@@ -1,0 +1,53 @@
+{
+  "baseline": {
+    "collision_rate": 0.0,
+    "intervention_rate": 0.4489143192488263,
+    "mean_steps": 158.5,
+    "min_clearance_m": 0.2333333333333333,
+    "n": 12,
+    "path_efficiency": 0.08333333333333333,
+    "success_rate": 0.08333333333333333
+  },
+  "benchmark_notes": "Dynamic clinic benchmark with moving obstacles, blind-corner slowdown, chance-constrained risk scoring, and selective intervention. max_steps=160.",
+  "improved": {
+    "collision_rate": 0.0,
+    "intervention_rate": 0.5548639587344365,
+    "mean_steps": 140.41666666666666,
+    "min_clearance_m": 0.2875677468475532,
+    "n": 12,
+    "path_efficiency": 0.75,
+    "success_rate": 0.75
+  },
+  "selected_params": {
+    "agreement": 0.4,
+    "horizon": 6,
+    "margin": 0.32,
+    "risk_penalty": 7.0,
+    "samples": 20
+  },
+  "test_scenarios": [
+    100,
+    101,
+    102,
+    103
+  ],
+  "train_improved": {
+    "collision_rate": 0.0,
+    "intervention_rate": 0.6354200694160882,
+    "mean_steps": 158.0,
+    "min_clearance_m": 0.252554910653119,
+    "n": 6,
+    "path_efficiency": 0.6666666666666666,
+    "success_rate": 0.6666666666666666
+  },
+  "train_scenarios": [
+    0,
+    1,
+    2
+  ],
+  "user_seeds": [
+    3,
+    7,
+    11
+  ]
+}

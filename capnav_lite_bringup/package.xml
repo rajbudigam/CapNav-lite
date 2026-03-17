@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>capnav_lite_bringup</name>
+  <version>0.2.0</version>
+  <description>Launch files and runtime configs for CapNav-Lite.</description>
+  <maintainer email="jasrajharikrishna.b@indusschoolhyd.com">Jasraj Budigam</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>nav2_bringup</exec_depend>
+  <exec_depend>capnav_lite_nav2_plugin</exec_depend>
+  <exec_depend>capnav_lite_runtime</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>capnav_lite_nav2_plugin</name>
+  <version>0.2.0</version>
+  <description>Capability-aware Nav2 controller plugin for assistive navigation.</description>
+  <maintainer email="jasrajharikrishna.b@indusschoolhyd.com">Jasraj Budigam</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>rclcpp_lifecycle</depend>
+  <depend>nav2_core</depend>
+  <depend>nav2_util</depend>
+  <depend>nav2_costmap_2d</depend>
+  <depend>nav_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>pluginlib</depend>
+  <depend>nlohmann_json</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

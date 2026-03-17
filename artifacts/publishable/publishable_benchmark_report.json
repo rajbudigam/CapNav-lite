@@ -1,0 +1,1275 @@
+{
+  "ablations": [
+    {
+      "name": "Full system",
+      "summary": {
+        "collision_rate": {
+          "ci95_high": 0.5083333333333333,
+          "ci95_low": 0.31666666666666665,
+          "mean": 0.4166666666666667,
+          "scenario_se": 0.09007793896243019
+        },
+        "comfort_intervention_rate": {
+          "ci95_high": 0.2421445743639174,
+          "ci95_low": 0.19985961151696874,
+          "mean": 0.22155235329762146,
+          "scenario_se": 0.0154405401761654
+        },
+        "intervention_rate": {
+          "ci95_high": 0.4854396092007685,
+          "ci95_low": 0.4082548343966909,
+          "mean": 0.44376330452261226,
+          "scenario_se": 0.044067156080944477
+        },
+        "mean_steps": {
+          "ci95_high": 132.35,
+          "ci95_low": 121.775,
+          "mean": 127.46666666666667,
+          "scenario_se": 5.426672270353588
+        },
+        "min_clearance_m": {
+          "ci95_high": 0.2672989864954452,
+          "ci95_low": 0.18328514348445873,
+          "mean": 0.22398106210028956,
+          "scenario_se": 0.04987510117967522
+        },
+        "n_episodes": 120,
+        "n_scenarios": 20,
+        "override_rate": {
+          "ci95_high": 0.18142112702210142,
+          "ci95_low": 0.1043649952353031,
+          "mean": 0.14058377092824328,
+          "scenario_se": 0.04954059386566762
+        },
+        "path_efficiency": {
+          "ci95_high": 0.45,
+          "ci95_low": 0.2833333333333333,
+          "mean": 0.36666666666666664,
+          "scenario_se": 0.09489914621963874
+        },
+        "safety_intervention_rate": {
+          "ci95_high": 0.24629386872996564,
+          "ci95_low": 0.15340692682228613,
+          "mean": 0.1968877193994228,
+          "scenario_se": 0.055210766201701705
+        },
+        "success_rate": {
+          "ci95_high": 0.4666666666666667,
+          "ci95_low": 0.2833333333333333,
+          "mean": 0.36666666666666664,
+          "scenario_se": 0.09489914621963874
+        }
+      }
+    },
+    {
+      "name": "- Lattice scoring",
+      "summary": {
+        "collision_rate": {
+          "ci95_high": 0.5,
+          "ci95_low": 0.325,
+          "mean": 0.4083333333333333,
+          "scenario_se": 0.08418425211459425
+        },
+        "comfort_intervention_rate": {
+          "ci95_high": 0.0,
+          "ci95_low": 0.0,
+          "mean": 0.0,
+          "scenario_se": 0.0
+        },
+        "intervention_rate": {
+          "ci95_high": 0.25246082191861574,
+          "ci95_low": 0.1664495719087871,
+          "mean": 0.209446892317296,
+          "scenario_se": 0.0503831253446456
+        },
+        "mean_steps": {
+          "ci95_high": 138.95,
+          "ci95_low": 128.04166666666666,
+          "mean": 133.68333333333334,
+          "scenario_se": 4.98648612347905
+        },
+        "min_clearance_m": {
+          "ci95_high": 0.2698805953096131,
+          "ci95_low": 0.18627254435533983,
+          "mean": 0.22664120868340182,
+          "scenario_se": 0.0493922433810434
+        },
+        "n_episodes": 120,
+        "n_scenarios": 20,
+        "override_rate": {
+          "ci95_high": 0.15840414429742627,
+          "ci95_low": 0.07946589674095249,
+          "mean": 0.11958070749654609,
+          "scenario_se": 0.04914496058737074
+        },
+        "path_efficiency": {
+          "ci95_high": 0.25833333333333336,
+          "ci95_low": 0.11666666666666667,
+          "mean": 0.18333333333333332,
+          "scenario_se": 0.056584047097789955
+        },
+        "safety_intervention_rate": {
+          "ci95_high": 0.259557566011904,
+          "ci95_low": 0.1630463165608235,
+          "mean": 0.209446892317296,
+          "scenario_se": 0.0503831253446456
+        },
+        "success_rate": {
+          "ci95_high": 0.25,
+          "ci95_low": 0.11666666666666667,
+          "mean": 0.18333333333333332,
+          "scenario_se": 0.056584047097789955
+        }
+      }
+    },
+    {
+      "name": "- Adaptive threshold",
+      "summary": {
+        "collision_rate": {
+          "ci95_high": 0.5083333333333333,
+          "ci95_low": 0.31666666666666665,
+          "mean": 0.4166666666666667,
+          "scenario_se": 0.09007793896243019
+        },
+        "comfort_intervention_rate": {
+          "ci95_high": 0.2421445743639174,
+          "ci95_low": 0.19993969389959437,
+          "mean": 0.2216044366309548,
+          "scenario_se": 0.015451317485588064
+        },
+        "intervention_rate": {
+          "ci95_high": 0.48538752586743517,
+          "ci95_low": 0.4082548343966909,
+          "mean": 0.4437112211892789,
+          "scenario_se": 0.04407037389752312
+        },
+        "mean_steps": {
+          "ci95_high": 132.35,
+          "ci95_low": 121.775,
+          "mean": 127.46666666666667,
+          "scenario_se": 5.426672270353588
+        },
+        "min_clearance_m": {
+          "ci95_high": 0.26782531086051026,
+          "ci95_low": 0.18363113529561942,
+          "mean": 0.22481439543362292,
+          "scenario_se": 0.049807664401797985
+        },
+        "n_episodes": 120,
+        "n_scenarios": 20,
+        "override_rate": {
+          "ci95_high": 0.18142112702210142,
+          "ci95_low": 0.10420874523530309,
+          "mean": 0.14042752092824326,
+          "scenario_se": 0.04955013803065348
+        },
+        "path_efficiency": {
+          "ci95_high": 0.45,
+          "ci95_low": 0.2833333333333333,
+          "mean": 0.36666666666666664,
+          "scenario_se": 0.09489914621963874
+        },
+        "safety_intervention_rate": {
+          "ci95_high": 0.24598136872996562,
+          "ci95_low": 0.15335101352221797,
+          "mean": 0.19678355273275608,
+          "scenario_se": 0.05522225244445732
+        },
+        "success_rate": {
+          "ci95_high": 0.4666666666666667,
+          "ci95_low": 0.2833333333333333,
+          "mean": 0.36666666666666664,
+          "scenario_se": 0.09489914621963874
+        }
+      }
+    },
+    {
+      "name": "- Reliability estimation",
+      "summary": {
+        "collision_rate": {
+          "ci95_high": 0.475,
+          "ci95_low": 0.2916666666666667,
+          "mean": 0.38333333333333336,
+          "scenario_se": 0.09136713422437123
+        },
+        "comfort_intervention_rate": {
+          "ci95_high": 0.2321051215807102,
+          "ci95_low": 0.1883467359809669,
+          "mean": 0.21086135411385437,
+          "scenario_se": 0.016838459826927978
+        },
+        "intervention_rate": {
+          "ci95_high": 0.48977464307564755,
+          "ci95_low": 0.4132318850399033,
+          "mean": 0.44936256216896703,
+          "scenario_se": 0.0437034248996484
+        },
+        "mean_steps": {
+          "ci95_high": 134.55833333333334,
+          "ci95_low": 123.95833333333333,
+          "mean": 129.43333333333334,
+          "scenario_se": 5.558900455036577
+        },
+        "min_clearance_m": {
+          "ci95_high": 0.26923442440268935,
+          "ci95_low": 0.18433382484615685,
+          "mean": 0.22394859341674161,
+          "scenario_se": 0.05079593456688827
+        },
+        "n_episodes": 120,
+        "n_scenarios": 20,
+        "override_rate": {
+          "ci95_high": 0.192606473218128,
+          "ci95_low": 0.11523492694805446,
+          "mean": 0.15239839826332113,
+          "scenario_se": 0.0489176896887034
+        },
+        "path_efficiency": {
+          "ci95_high": 0.475,
+          "ci95_low": 0.30833333333333335,
+          "mean": 0.39166666666666666,
+          "scenario_se": 0.0991742220326909
+        },
+        "safety_intervention_rate": {
+          "ci95_high": 0.2571487736755646,
+          "ci95_low": 0.1623045346568669,
+          "mean": 0.20684809593685002,
+          "scenario_se": 0.054757130164270966
+        },
+        "success_rate": {
+          "ci95_high": 0.49166666666666664,
+          "ci95_low": 0.30833333333333335,
+          "mean": 0.39166666666666666,
+          "scenario_se": 0.0991742220326909
+        }
+      }
+    },
+    {
+      "name": "- Blind corner slowdown",
+      "summary": {
+        "collision_rate": {
+          "ci95_high": 0.5166666666666667,
+          "ci95_low": 0.325,
+          "mean": 0.425,
+          "scenario_se": 0.09086571931905024
+        },
+        "comfort_intervention_rate": {
+          "ci95_high": 0.24217676099487837,
+          "ci95_low": 0.1998917981479297,
+          "mean": 0.22158453992858243,
+          "scenario_se": 0.015450691419988963
+        },
+        "intervention_rate": {
+          "ci95_high": 0.4854396092007685,
+          "ci95_low": 0.4083582607708455,
+          "mean": 0.4438667308967668,
+          "scenario_se": 0.04407043935067219
+        },
+        "mean_steps": {
+          "ci95_high": 132.275,
+          "ci95_low": 121.675,
+          "mean": 127.35833333333333,
+          "scenario_se": 5.421587171312508
+        },
+        "min_clearance_m": {
+          "ci95_high": 0.2672989864954452,
+          "ci95_low": 0.18436582194907483,
+          "mean": 0.22439772876695624,
+          "scenario_se": 0.049796617188120285
+        },
+        "n_episodes": 120,
+        "n_scenarios": 20,
+        "override_rate": {
+          "ci95_high": 0.18144086815575747,
+          "ci95_low": 0.10450378398800676,
+          "mean": 0.1407126891141189,
+          "scenario_se": 0.04953944494306105
+        },
+        "path_efficiency": {
+          "ci95_high": 0.44166666666666665,
+          "ci95_low": 0.275,
+          "mean": 0.35833333333333334,
+          "scenario_se": 0.09618072049091775
+        },
+        "safety_intervention_rate": {
+          "ci95_high": 0.2462503524049064,
+          "ci95_low": 0.15344469246928036,
+          "mean": 0.19680643742736936,
+          "scenario_se": 0.055220598098462345
+        },
+        "success_rate": {
+          "ci95_high": 0.4583333333333333,
+          "ci95_low": 0.26666666666666666,
+          "mean": 0.35833333333333334,
+          "scenario_se": 0.09618072049091775
+        }
+      }
+    },
+    {
+      "name": "- Dynamic obstacle pred.",
+      "summary": {
+        "collision_rate": {
+          "ci95_high": 0.5166666666666667,
+          "ci95_low": 0.3333333333333333,
+          "mean": 0.425,
+          "scenario_se": 0.09086571931905024
+        },
+        "comfort_intervention_rate": {
+          "ci95_high": 0.2445781380823753,
+          "ci95_low": 0.20159512675924657,
+          "mean": 0.22337639165406367,
+          "scenario_se": 0.015752151104165005
+        },
+        "intervention_rate": {
+          "ci95_high": 0.4819974325185985,
+          "ci95_low": 0.4044801509974844,
+          "mean": 0.4409002167418476,
+          "scenario_se": 0.04403480183481923
+        },
+        "mean_steps": {
+          "ci95_high": 131.91666666666666,
+          "ci95_low": 121.2,
+          "mean": 126.65833333333333,
+          "scenario_se": 5.5948816809108495
+        },
+        "min_clearance_m": {
+          "ci95_high": 0.2620103085082665,
+          "ci95_low": 0.1783059085028894,
+          "mean": 0.21897911350440943,
+          "scenario_se": 0.05022903791066443
+        },
+        "n_episodes": 120,
+        "n_scenarios": 20,
+        "override_rate": {
+          "ci95_high": 0.17850468628681118,
+          "ci95_low": 0.10200823785759953,
+          "mean": 0.13729827132880673,
+          "scenario_se": 0.0495620331487018
+        },
+        "path_efficiency": {
+          "ci95_high": 0.45,
+          "ci95_low": 0.2833333333333333,
+          "mean": 0.36666666666666664,
+          "scenario_se": 0.09489914621963874
+        },
+        "safety_intervention_rate": {
+          "ci95_high": 0.24070796879151962,
+          "ci95_low": 0.14660359712166743,
+          "mean": 0.1911863796629659,
+          "scenario_se": 0.05549826936294669
+        },
+        "success_rate": {
+          "ci95_high": 0.4666666666666667,
+          "ci95_low": 0.2833333333333333,
+          "mean": 0.36666666666666664,
+          "scenario_se": 0.09489914621963874
+        }
+      }
+    }
+  ],
+  "delta_vs_fixed_blend": {
+    "collision_rate": {
+      "ci95_high": 0.125,
+      "ci95_low": 0.025,
+      "mean": 0.075,
+      "scenario_se": 0.039133524611744484
+    },
+    "override_rate": {
+      "ci95_high": 0.01567861387685752,
+      "ci95_low": -0.049441031899492914,
+      "mean": -0.017971135774613664,
+      "scenario_se": 0.03486230509410055
+    },
+    "path_efficiency": {
+      "ci95_high": 0.16666666666666666,
+      "ci95_low": 0.041666666666666664,
+      "mean": 0.1,
+      "scenario_se": 0.04257775824390034
+    },
+    "safety_intervention_rate": {
+      "ci95_high": -0.01904092977899257,
+      "ci95_low": -0.08109676006195504,
+      "mean": -0.04974243738113105,
+      "scenario_se": 0.03303065178233625
+    },
+    "success_rate": {
+      "ci95_high": 0.16666666666666666,
+      "ci95_low": 0.041666666666666664,
+      "mean": 0.1,
+      "scenario_se": 0.04257775824390034
+    }
+  },
+  "family_breakdown": [
+    {
+      "collision_rate": 1.0,
+      "comfort_intervention_rate": 0.0,
+      "family": "crossing",
+      "n_episodes": 24,
+      "override_rate": 0.0,
+      "path_efficiency": 0.0,
+      "policy": "user_safety",
+      "safety_intervention_rate": 0.31117823525642113,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 1.0,
+      "comfort_intervention_rate": 0.23279951139031663,
+      "family": "crossing",
+      "n_episodes": 24,
+      "override_rate": 0.08255996573386636,
+      "path_efficiency": 0.0,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.4451345263024304,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 1.0,
+      "comfort_intervention_rate": 0.0,
+      "family": "crossing",
+      "n_episodes": 24,
+      "override_rate": 0.9902912621359223,
+      "path_efficiency": 0.0,
+      "policy": "pure_autonomy",
+      "safety_intervention_rate": 0.49514563106796117,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 1.0,
+      "comfort_intervention_rate": 0.1723841718041461,
+      "family": "crossing",
+      "n_episodes": 24,
+      "override_rate": 0.13708047477143706,
+      "path_efficiency": 0.0,
+      "policy": "improved",
+      "safety_intervention_rate": 0.4121841090805254,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.0,
+      "family": "double_corridor",
+      "n_episodes": 24,
+      "override_rate": 0.0,
+      "path_efficiency": 0.0,
+      "policy": "user_safety",
+      "safety_intervention_rate": 0.3033854166666667,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.196773629753915,
+      "family": "double_corridor",
+      "n_episodes": 24,
+      "override_rate": 0.42645588646532434,
+      "path_efficiency": 0.041666666666666664,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.45594064597315437,
+      "success_rate": 0.041666666666666664
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.0,
+      "family": "double_corridor",
+      "n_episodes": 24,
+      "override_rate": 1.0,
+      "path_efficiency": 0.0,
+      "policy": "pure_autonomy",
+      "safety_intervention_rate": 0.6078125,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.25,
+      "comfort_intervention_rate": 0.20672945561237055,
+      "family": "double_corridor",
+      "n_episodes": 24,
+      "override_rate": 0.38160713306911936,
+      "path_efficiency": 0.16666666666666666,
+      "policy": "improved",
+      "safety_intervention_rate": 0.39483149899169745,
+      "success_rate": 0.16666666666666666
+    },
+    {
+      "collision_rate": 0.041666666666666664,
+      "comfort_intervention_rate": 0.0,
+      "family": "loop_ward",
+      "n_episodes": 24,
+      "override_rate": 0.0,
+      "path_efficiency": 0.20833333333333334,
+      "policy": "user_safety",
+      "safety_intervention_rate": 0.09446462026396117,
+      "success_rate": 0.20833333333333334
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.20374712399596484,
+      "family": "loop_ward",
+      "n_episodes": 24,
+      "override_rate": 0.12053480082298063,
+      "path_efficiency": 0.3333333333333333,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.14585532208597007,
+      "success_rate": 0.3333333333333333
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.0,
+      "family": "loop_ward",
+      "n_episodes": 24,
+      "override_rate": 1.0,
+      "path_efficiency": 0.0,
+      "policy": "pure_autonomy",
+      "safety_intervention_rate": 0.29375,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.16666666666666666,
+      "comfort_intervention_rate": 0.2167921847697446,
+      "family": "loop_ward",
+      "n_episodes": 24,
+      "override_rate": 0.03189479642643442,
+      "path_efficiency": 0.7083333333333334,
+      "policy": "improved",
+      "safety_intervention_rate": 0.04120923602958499,
+      "success_rate": 0.7083333333333334
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.0,
+      "family": "open_clutter",
+      "n_episodes": 24,
+      "override_rate": 0.0,
+      "path_efficiency": 0.5416666666666666,
+      "policy": "user_safety",
+      "safety_intervention_rate": 0.0,
+      "success_rate": 0.5416666666666666
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.25221558714679165,
+      "family": "open_clutter",
+      "n_episodes": 24,
+      "override_rate": 0.0,
+      "path_efficiency": 0.9583333333333334,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.0,
+      "success_rate": 0.9583333333333334
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.0,
+      "family": "open_clutter",
+      "n_episodes": 24,
+      "override_rate": 1.0,
+      "path_efficiency": 1.0,
+      "policy": "pure_autonomy",
+      "safety_intervention_rate": 0.0,
+      "success_rate": 1.0
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.25105341590260816,
+      "family": "open_clutter",
+      "n_episodes": 24,
+      "override_rate": 0.0011046496879507503,
+      "path_efficiency": 0.9583333333333334,
+      "policy": "improved",
+      "safety_intervention_rate": 0.0,
+      "success_rate": 0.9583333333333334
+    },
+    {
+      "collision_rate": 0.6666666666666666,
+      "comfort_intervention_rate": 0.0,
+      "family": "slalom",
+      "n_episodes": 24,
+      "override_rate": 0.0,
+      "path_efficiency": 0.0,
+      "policy": "user_safety",
+      "safety_intervention_rate": 0.14160946486443013,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.7083333333333334,
+      "comfort_intervention_rate": 0.2914203606894162,
+      "family": "slalom",
+      "n_episodes": 24,
+      "override_rate": 0.1632238804921133,
+      "path_efficiency": 0.0,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.1862202895412143,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.0,
+      "family": "slalom",
+      "n_episodes": 24,
+      "override_rate": 1.0,
+      "path_efficiency": 0.0,
+      "policy": "pure_autonomy",
+      "safety_intervention_rate": 0.6875,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.6666666666666666,
+      "comfort_intervention_rate": 0.2608025383992379,
+      "family": "slalom",
+      "n_episodes": 24,
+      "override_rate": 0.15123180068627476,
+      "path_efficiency": 0.0,
+      "policy": "improved",
+      "safety_intervention_rate": 0.136213752895306,
+      "success_rate": 0.0
+    }
+  ],
+  "mcnemar_vs_fixed_blend": {
+    "n_baseline_only": 2,
+    "n_improved_only": 14,
+    "p_value": 0.004180908203125
+  },
+  "notes": [
+    "publishable benchmark run"
+  ],
+  "policies": {
+    "fixed_blend": {
+      "collision_rate": {
+        "ci95_high": 0.43333333333333335,
+        "ci95_low": 0.25,
+        "mean": 0.3416666666666667,
+        "scenario_se": 0.09932152879346624
+      },
+      "comfort_intervention_rate": {
+        "ci95_high": 0.2563801566482864,
+        "ci95_low": 0.20981303560823783,
+        "mean": 0.23539124259528085,
+        "scenario_se": 0.009517767646856754
+      },
+      "intervention_rate": {
+        "ci95_high": 0.5183465621704543,
+        "ci95_low": 0.44558280361753216,
+        "mean": 0.48266308626903853,
+        "scenario_se": 0.03925882691020044
+      },
+      "mean_steps": {
+        "ci95_high": 138.11666666666667,
+        "ci95_low": 126.83333333333333,
+        "mean": 132.73333333333332,
+        "scenario_se": 6.09872961558197
+      },
+      "min_clearance_m": {
+        "ci95_high": 0.2833333333333333,
+        "ci95_low": 0.2033333333333333,
+        "mean": 0.23958333333333334,
+        "scenario_se": 0.05298776133105825
+      },
+      "n_episodes": 120,
+      "n_scenarios": 20,
+      "override_rate": {
+        "ci95_high": 0.192648706159439,
+        "ci95_low": 0.12680327764098487,
+        "mean": 0.15855490670285693,
+        "scenario_se": 0.03455183819320694
+      },
+      "path_efficiency": {
+        "ci95_high": 0.35,
+        "ci95_low": 0.19166666666666668,
+        "mean": 0.26666666666666666,
+        "scenario_se": 0.08583950752789521
+      },
+      "safety_intervention_rate": {
+        "ci95_high": 0.28426085407523566,
+        "ci95_low": 0.20886103309347248,
+        "mean": 0.24663015678055383,
+        "scenario_se": 0.04190049932425797
+      },
+      "success_rate": {
+        "ci95_high": 0.35833333333333334,
+        "ci95_low": 0.19166666666666668,
+        "mean": 0.26666666666666666,
+        "scenario_se": 0.08583950752789521
+      }
+    },
+    "improved": {
+      "collision_rate": {
+        "ci95_high": 0.5083333333333333,
+        "ci95_low": 0.31666666666666665,
+        "mean": 0.4166666666666667,
+        "scenario_se": 0.09007793896243019
+      },
+      "comfort_intervention_rate": {
+        "ci95_high": 0.2421445743639174,
+        "ci95_low": 0.19985961151696874,
+        "mean": 0.22155235329762146,
+        "scenario_se": 0.0154405401761654
+      },
+      "intervention_rate": {
+        "ci95_high": 0.4854396092007685,
+        "ci95_low": 0.4082548343966909,
+        "mean": 0.44376330452261226,
+        "scenario_se": 0.044067156080944477
+      },
+      "mean_steps": {
+        "ci95_high": 132.35,
+        "ci95_low": 121.775,
+        "mean": 127.46666666666667,
+        "scenario_se": 5.426672270353588
+      },
+      "min_clearance_m": {
+        "ci95_high": 0.2672989864954452,
+        "ci95_low": 0.18328514348445873,
+        "mean": 0.22398106210028956,
+        "scenario_se": 0.04987510117967522
+      },
+      "n_episodes": 120,
+      "n_scenarios": 20,
+      "override_rate": {
+        "ci95_high": 0.18142112702210142,
+        "ci95_low": 0.1043649952353031,
+        "mean": 0.14058377092824328,
+        "scenario_se": 0.04954059386566762
+      },
+      "path_efficiency": {
+        "ci95_high": 0.45,
+        "ci95_low": 0.2833333333333333,
+        "mean": 0.36666666666666664,
+        "scenario_se": 0.09489914621963874
+      },
+      "safety_intervention_rate": {
+        "ci95_high": 0.24629386872996564,
+        "ci95_low": 0.15340692682228613,
+        "mean": 0.1968877193994228,
+        "scenario_se": 0.055210766201701705
+      },
+      "success_rate": {
+        "ci95_high": 0.4666666666666667,
+        "ci95_low": 0.2833333333333333,
+        "mean": 0.36666666666666664,
+        "scenario_se": 0.09489914621963874
+      }
+    },
+    "pure_autonomy": {
+      "collision_rate": {
+        "ci95_high": 0.275,
+        "ci95_low": 0.125,
+        "mean": 0.2,
+        "scenario_se": 0.0917662935482247
+      },
+      "comfort_intervention_rate": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "scenario_se": 0.0
+      },
+      "intervention_rate": {
+        "ci95_high": 0.9987864077669903,
+        "ci95_low": 0.9972491909385113,
+        "mean": 0.9980582524271845,
+        "scenario_se": 0.0008909348888177151
+      },
+      "mean_steps": {
+        "ci95_high": 146.0,
+        "ci95_low": 137.925,
+        "mean": 142.2,
+        "scenario_se": 5.320071230231494
+      },
+      "min_clearance_m": {
+        "ci95_high": 0.3416666666666667,
+        "ci95_low": 0.27166666666666667,
+        "mean": 0.305,
+        "scenario_se": 0.04686205961733806
+      },
+      "n_episodes": 120,
+      "n_scenarios": 20,
+      "override_rate": {
+        "ci95_high": 0.998705501618123,
+        "ci95_low": 0.9973300970873786,
+        "mean": 0.9980582524271845,
+        "scenario_se": 0.0008909348888177151
+      },
+      "path_efficiency": {
+        "ci95_high": 0.275,
+        "ci95_low": 0.13333333333333333,
+        "mean": 0.2,
+        "scenario_se": 0.0917662935482247
+      },
+      "safety_intervention_rate": {
+        "ci95_high": 0.4607595064724919,
+        "ci95_low": 0.3670034385113269,
+        "mean": 0.4168416262135922,
+        "scenario_se": 0.05915799306395578
+      },
+      "success_rate": {
+        "ci95_high": 0.2833333333333333,
+        "ci95_low": 0.13333333333333333,
+        "mean": 0.2,
+        "scenario_se": 0.0917662935482247
+      }
+    },
+    "user_safety": {
+      "collision_rate": {
+        "ci95_high": 0.43333333333333335,
+        "ci95_low": 0.25833333333333336,
+        "mean": 0.3416666666666667,
+        "scenario_se": 0.09633260486581849
+      },
+      "comfort_intervention_rate": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "scenario_se": 0.0
+      },
+      "intervention_rate": {
+        "ci95_high": 0.20054754406186015,
+        "ci95_low": 0.14217822482539821,
+        "mean": 0.17012754741029582,
+        "scenario_se": 0.028708316969550146
+      },
+      "mean_steps": {
+        "ci95_high": 140.50833333333333,
+        "ci95_low": 129.74166666666667,
+        "mean": 135.35,
+        "scenario_se": 5.862220454313429
+      },
+      "min_clearance_m": {
+        "ci95_high": 0.2561473124485984,
+        "ci95_low": 0.1769936889481807,
+        "mean": 0.21512174926059238,
+        "scenario_se": 0.051774628229230055
+      },
+      "n_episodes": 120,
+      "n_scenarios": 20,
+      "override_rate": {
+        "ci95_high": 0.0,
+        "ci95_low": 0.0,
+        "mean": 0.0,
+        "scenario_se": 0.0
+      },
+      "path_efficiency": {
+        "ci95_high": 0.21666666666666667,
+        "ci95_low": 0.08333333333333333,
+        "mean": 0.15,
+        "scenario_se": 0.05115622214674853
+      },
+      "safety_intervention_rate": {
+        "ci95_high": 0.2022752193872828,
+        "ci95_low": 0.1417354012991445,
+        "mean": 0.17012754741029582,
+        "scenario_se": 0.028708316969550146
+      },
+      "success_rate": {
+        "ci95_high": 0.225,
+        "ci95_low": 0.09166666666666666,
+        "mean": 0.15,
+        "scenario_se": 0.05115622214674853
+      }
+    }
+  },
+  "selected_params": {
+    "adaptive_threshold": true,
+    "agreement": 0.0,
+    "backtracking_penalty": 1.25,
+    "caution_speed_mps": 0.08,
+    "caution_ttc_s": 1.1,
+    "clearance_gain": 1.6,
+    "emergency_ttc_s": 0.7,
+    "goal_progress_gain": 4.6,
+    "heading_gain": 0.7,
+    "horizon": 2,
+    "margin": 0.0,
+    "path_progress_gain": 5.8,
+    "risk_penalty": 0.0,
+    "risky_horizon": 3,
+    "safety_buffer_adjust_m": 0.0,
+    "safety_penalty": 16.0,
+    "samples": 20,
+    "smooth_angular_gain": 0.18,
+    "smooth_linear_gain": 0.12,
+    "speed_cap_mps": 0.26,
+    "ttc_penalty": 7.5,
+    "turn_penalty": 0.22,
+    "use_blind_corner_slowdown": true,
+    "use_dynamic_prediction": true,
+    "use_lattice_scoring": true,
+    "use_reliability_estimation": true,
+    "user_agreement_blend": 0.35,
+    "user_agreement_gain": 0.35,
+    "wait_bonus": 1.3,
+    "yield_hold_steps": 2
+  },
+  "sensitivity": {
+    "collision_rate_max": 0.55,
+    "collision_rate_mean": 0.5,
+    "path_efficiency_mean": 0.45999999999999996,
+    "perturbation_scale": 0.2,
+    "samples": 5,
+    "success_rate_mean": 0.45999999999999996,
+    "success_rate_min": 0.45
+  },
+  "test_scenarios": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119
+  ],
+  "trace_round_trip": {
+    "exact_match_rate": 1.0,
+    "live": {
+      "collision_rate": {
+        "ci95_high": 0.8333333333333334,
+        "ci95_low": 0.25,
+        "mean": 0.5833333333333334,
+        "scenario_se": 0.20971762320196527
+      },
+      "comfort_intervention_rate": {
+        "ci95_high": 0.2095760692336636,
+        "ci95_low": 0.1286269589588055,
+        "mean": 0.16502535955992187,
+        "scenario_se": 0.021123659757947475
+      },
+      "intervention_rate": {
+        "ci95_high": 0.6043779137529138,
+        "ci95_low": 0.3633951639712552,
+        "mean": 0.4824087716602601,
+        "scenario_se": 0.1156778181626076
+      },
+      "mean_steps": {
+        "ci95_high": 144.16666666666666,
+        "ci95_low": 106.75,
+        "mean": 125.5,
+        "scenario_se": 14.762627990475991
+      },
+      "min_clearance_m": {
+        "ci95_high": 0.111210977661521,
+        "ci95_low": 0.016666666666666666,
+        "mean": 0.06068143699828477,
+        "scenario_se": 0.03983887413757237
+      },
+      "n_episodes": 12,
+      "n_scenarios": 4,
+      "override_rate": {
+        "ci95_high": 0.3298127163745794,
+        "ci95_low": 0.10090871776206507,
+        "mean": 0.2046799688481117,
+        "scenario_se": 0.0977926393472898
+      },
+      "path_efficiency": {
+        "ci95_high": 0.25,
+        "ci95_low": 0.0,
+        "mean": 0.08333333333333333,
+        "scenario_se": 0.08333333333333333
+      },
+      "safety_intervention_rate": {
+        "ci95_high": 0.4110877292926242,
+        "ci95_low": 0.15677002065829984,
+        "mean": 0.2853114570330924,
+        "scenario_se": 0.11466107745127681
+      },
+      "success_rate": {
+        "ci95_high": 0.25,
+        "ci95_low": 0.0,
+        "mean": 0.08333333333333333,
+        "scenario_se": 0.08333333333333333
+      }
+    },
+    "n_episodes": 12,
+    "n_traces": 12,
+    "replay": {
+      "collision_rate": {
+        "ci95_high": 0.8333333333333334,
+        "ci95_low": 0.25,
+        "mean": 0.5833333333333334,
+        "scenario_se": 0.20971762320196527
+      },
+      "comfort_intervention_rate": {
+        "ci95_high": 0.2095760692336636,
+        "ci95_low": 0.1286269589588055,
+        "mean": 0.16502535955992187,
+        "scenario_se": 0.021123659757947475
+      },
+      "intervention_rate": {
+        "ci95_high": 0.6043779137529138,
+        "ci95_low": 0.3633951639712552,
+        "mean": 0.4824087716602601,
+        "scenario_se": 0.1156778181626076
+      },
+      "mean_steps": {
+        "ci95_high": 144.16666666666666,
+        "ci95_low": 106.75,
+        "mean": 125.5,
+        "scenario_se": 14.762627990475991
+      },
+      "min_clearance_m": {
+        "ci95_high": 0.111210977661521,
+        "ci95_low": 0.016666666666666666,
+        "mean": 0.06068143699828477,
+        "scenario_se": 0.03983887413757237
+      },
+      "n_episodes": 12,
+      "n_scenarios": 4,
+      "override_rate": {
+        "ci95_high": 0.3298127163745794,
+        "ci95_low": 0.10090871776206507,
+        "mean": 0.2046799688481117,
+        "scenario_se": 0.0977926393472898
+      },
+      "path_efficiency": {
+        "ci95_high": 0.25,
+        "ci95_low": 0.0,
+        "mean": 0.08333333333333333,
+        "scenario_se": 0.08333333333333333
+      },
+      "safety_intervention_rate": {
+        "ci95_high": 0.4110877292926242,
+        "ci95_low": 0.15677002065829984,
+        "mean": 0.2853114570330924,
+        "scenario_se": 0.11466107745127681
+      },
+      "success_rate": {
+        "ci95_high": 0.25,
+        "ci95_low": 0.0,
+        "mean": 0.08333333333333333,
+        "scenario_se": 0.08333333333333333
+      }
+    },
+    "trace_dir": "artifacts/publishable/synthetic_traces"
+  },
+  "train_candidates": [
+    {
+      "adaptive_threshold": true,
+      "agreement": 0.0,
+      "backtracking_penalty": 1.25,
+      "caution_speed_mps": 0.08,
+      "caution_ttc_s": 1.1,
+      "clearance_gain": 1.6,
+      "collision_rate": 0.35,
+      "emergency_ttc_s": 0.7,
+      "goal_progress_gain": 4.6,
+      "heading_gain": 0.7,
+      "horizon": 2,
+      "intervention_rate": 0.4421403238791106,
+      "margin": 0.0,
+      "min_clearance_m": 0.19978617990653205,
+      "objective": 1.2917591789905536,
+      "override_rate": 0.14414351605066533,
+      "path_efficiency": 0.4,
+      "path_progress_gain": 5.8,
+      "risk_penalty": 0.0,
+      "risky_horizon": 3,
+      "safety_buffer_adjust_m": 0.0,
+      "safety_intervention_rate": 0.19023156476946657,
+      "safety_penalty": 16.0,
+      "samples": 20,
+      "smooth_angular_gain": 0.18,
+      "smooth_linear_gain": 0.12,
+      "speed_cap_mps": 0.26,
+      "success_rate": 0.4,
+      "ttc_penalty": 7.5,
+      "turn_penalty": 0.22,
+      "use_blind_corner_slowdown": true,
+      "use_dynamic_prediction": true,
+      "use_lattice_scoring": true,
+      "use_reliability_estimation": true,
+      "user_agreement_blend": 0.35,
+      "user_agreement_gain": 0.35,
+      "wait_bonus": 1.3,
+      "yield_hold_steps": 2
+    },
+    {
+      "adaptive_threshold": true,
+      "agreement": 0.0,
+      "backtracking_penalty": 1.25,
+      "caution_speed_mps": 0.08,
+      "caution_ttc_s": 1.1,
+      "clearance_gain": 1.6,
+      "collision_rate": 0.35,
+      "emergency_ttc_s": 0.7,
+      "goal_progress_gain": 4.6,
+      "heading_gain": 0.7,
+      "horizon": 2,
+      "intervention_rate": 0.4421403238791106,
+      "margin": 0.0,
+      "min_clearance_m": 0.19978617990653205,
+      "objective": 1.2917591789905536,
+      "override_rate": 0.14414351605066533,
+      "path_efficiency": 0.4,
+      "path_progress_gain": 5.8,
+      "risk_penalty": 0.0,
+      "risky_horizon": 3,
+      "safety_buffer_adjust_m": 0.0,
+      "safety_intervention_rate": 0.19023156476946657,
+      "safety_penalty": 16.0,
+      "samples": 20,
+      "smooth_angular_gain": 0.18,
+      "smooth_linear_gain": 0.12,
+      "speed_cap_mps": 0.26,
+      "success_rate": 0.4,
+      "ttc_penalty": 7.5,
+      "turn_penalty": 0.22,
+      "use_blind_corner_slowdown": true,
+      "use_dynamic_prediction": true,
+      "use_lattice_scoring": true,
+      "use_reliability_estimation": true,
+      "user_agreement_blend": 0.35,
+      "user_agreement_gain": 0.35,
+      "wait_bonus": 1.3,
+      "yield_hold_steps": 2
+    },
+    {
+      "adaptive_threshold": true,
+      "agreement": 0.0,
+      "backtracking_penalty": 1.25,
+      "caution_speed_mps": 0.08,
+      "caution_ttc_s": 1.2,
+      "clearance_gain": 1.6,
+      "collision_rate": 0.36666666666666664,
+      "emergency_ttc_s": 0.75,
+      "goal_progress_gain": 4.6,
+      "heading_gain": 0.7,
+      "horizon": 2,
+      "intervention_rate": 0.45950853234140154,
+      "margin": 0.0,
+      "min_clearance_m": 0.1888807546038849,
+      "objective": 0.34454963604750244,
+      "override_rate": 0.15066865744327165,
+      "path_efficiency": 0.35,
+      "path_progress_gain": 5.8,
+      "risk_penalty": 0.0,
+      "risky_horizon": 3,
+      "safety_buffer_adjust_m": 0.0,
+      "safety_intervention_rate": 0.18588187843628415,
+      "safety_penalty": 16.0,
+      "samples": 20,
+      "smooth_angular_gain": 0.18,
+      "smooth_linear_gain": 0.12,
+      "speed_cap_mps": 0.22,
+      "success_rate": 0.35,
+      "ttc_penalty": 7.5,
+      "turn_penalty": 0.22,
+      "use_blind_corner_slowdown": true,
+      "use_dynamic_prediction": true,
+      "use_lattice_scoring": true,
+      "use_reliability_estimation": true,
+      "user_agreement_blend": 0.45,
+      "user_agreement_gain": 0.35,
+      "wait_bonus": 1.6,
+      "yield_hold_steps": 2
+    },
+    {
+      "adaptive_threshold": true,
+      "agreement": 0.0,
+      "backtracking_penalty": 1.25,
+      "caution_speed_mps": 0.08,
+      "caution_ttc_s": 1.15,
+      "clearance_gain": 1.6,
+      "collision_rate": 0.4,
+      "emergency_ttc_s": 0.72,
+      "goal_progress_gain": 4.6,
+      "heading_gain": 0.7,
+      "horizon": 2,
+      "intervention_rate": 0.449296983131893,
+      "margin": 0.0,
+      "min_clearance_m": 0.20488598971855282,
+      "objective": 0.16067172704982224,
+      "override_rate": 0.14598560934794313,
+      "path_efficiency": 0.36666666666666664,
+      "path_progress_gain": 5.8,
+      "risk_penalty": 0.0,
+      "risky_horizon": 3,
+      "safety_buffer_adjust_m": 0.0,
+      "safety_intervention_rate": 0.19213624200039972,
+      "safety_penalty": 16.0,
+      "samples": 20,
+      "smooth_angular_gain": 0.18,
+      "smooth_linear_gain": 0.12,
+      "speed_cap_mps": 0.24,
+      "success_rate": 0.36666666666666664,
+      "ttc_penalty": 7.5,
+      "turn_penalty": 0.22,
+      "use_blind_corner_slowdown": true,
+      "use_dynamic_prediction": true,
+      "use_lattice_scoring": true,
+      "use_reliability_estimation": true,
+      "user_agreement_blend": 0.35,
+      "user_agreement_gain": 0.35,
+      "wait_bonus": 1.4,
+      "yield_hold_steps": 2
+    },
+    {
+      "adaptive_threshold": true,
+      "agreement": 0.0,
+      "backtracking_penalty": 1.25,
+      "caution_speed_mps": 0.08,
+      "caution_ttc_s": 1.0,
+      "clearance_gain": 1.6,
+      "collision_rate": 0.4,
+      "emergency_ttc_s": 0.65,
+      "goal_progress_gain": 4.6,
+      "heading_gain": 0.7,
+      "horizon": 2,
+      "intervention_rate": 0.4470441754111549,
+      "margin": 0.0,
+      "min_clearance_m": 0.1959982213148782,
+      "objective": -0.32773837894624314,
+      "override_rate": 0.15448807701664674,
+      "path_efficiency": 0.3333333333333333,
+      "path_progress_gain": 5.8,
+      "risk_penalty": 0.0,
+      "risky_horizon": 3,
+      "safety_buffer_adjust_m": 0.0,
+      "safety_intervention_rate": 0.1894617111633468,
+      "safety_penalty": 16.0,
+      "samples": 20,
+      "smooth_angular_gain": 0.18,
+      "smooth_linear_gain": 0.12,
+      "speed_cap_mps": 0.28,
+      "success_rate": 0.3333333333333333,
+      "ttc_penalty": 7.5,
+      "turn_penalty": 0.22,
+      "use_blind_corner_slowdown": true,
+      "use_dynamic_prediction": true,
+      "use_lattice_scoring": true,
+      "use_reliability_estimation": true,
+      "user_agreement_blend": 0.28,
+      "user_agreement_gain": 0.35,
+      "wait_bonus": 1.1,
+      "yield_hold_steps": 2
+    }
+  ],
+  "train_objective": 1.2917591789905536,
+  "train_scenarios": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "user_models": [
+    "pursuit",
+    "autoregressive"
+  ],
+  "user_seeds": [
+    3,
+    7,
+    11
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "baseline": {
+    "collision_rate": {
+      "ci95_high": 0.425,
+      "ci95_low": 0.25,
+      "mean": 0.3333333333333333,
+      "scenario_se": 0.0974829419776003
+    },
+    "comfort_intervention_rate": {
+      "ci95_high": 0.2587213717270764,
+      "ci95_low": 0.21225386494119988,
+      "mean": 0.23738199066079702,
+      "scenario_se": 0.008679327120125249
+    },
+    "intervention_rate": {
+      "ci95_high": 0.5118992734793147,
+      "ci95_low": 0.44366924924365686,
+      "mean": 0.4776149319348134,
+      "scenario_se": 0.03716471496096889
+    },
+    "mean_steps": {
+      "ci95_high": 139.15833333333333,
+      "ci95_low": 128.24166666666667,
+      "mean": 133.875,
+      "scenario_se": 5.729053826639963
+    },
+    "min_clearance_m": {
+      "ci95_high": 0.28541666666666665,
+      "ci95_low": 0.20583333333333334,
+      "mean": 0.24375,
+      "scenario_se": 0.05278388507292555
+    },
+    "n_episodes": 120,
+    "n_scenarios": 20,
+    "override_rate": {
+      "ci95_high": 0.20670704759409933,
+      "ci95_low": 0.1432599474835014,
+      "mean": 0.17456032293195747,
+      "scenario_se": 0.033791809750907564
+    },
+    "path_efficiency": {
+      "ci95_high": 0.36666666666666664,
+      "ci95_low": 0.2,
+      "mean": 0.275,
+      "scenario_se": 0.0865814358233898
+    },
+    "safety_intervention_rate": {
+      "ci95_high": 0.27296347111964303,
+      "ci95_low": 0.2017039021681725,
+      "mean": 0.23924052418924413,
+      "scenario_se": 0.03890072113474671
+    },
+    "success_rate": {
+      "ci95_high": 0.36666666666666664,
+      "ci95_low": 0.2,
+      "mean": 0.275,
+      "scenario_se": 0.0865814358233898
+    }
+  },
+  "delta_vs_fixed_blend": {
+    "collision_rate": {
+      "ci95_high": -0.11666666666666667,
+      "ci95_low": -0.2833333333333333,
+      "mean": -0.19166666666666668,
+      "scenario_se": 0.08989516311168912
+    },
+    "override_rate": {
+      "ci95_high": 0.019645481919162613,
+      "ci95_low": -0.04623386639084161,
+      "mean": -0.014393493503380548,
+      "scenario_se": 0.02763531936951333
+    },
+    "path_efficiency": {
+      "ci95_high": 0.14166666666666666,
+      "ci95_low": 0.025,
+      "mean": 0.08333333333333333,
+      "scenario_se": 0.03726779962499649
+    },
+    "safety_intervention_rate": {
+      "ci95_high": 0.1494906839153779,
+      "ci95_low": 0.0523860559848444,
+      "mean": 0.10249927735976455,
+      "scenario_se": 0.05661465280595911
+    },
+    "success_rate": {
+      "ci95_high": 0.14166666666666666,
+      "ci95_low": 0.025,
+      "mean": 0.08333333333333333,
+      "scenario_se": 0.03726779962499649
+    }
+  },
+  "family_breakdown": [
+    {
+      "collision_rate": 1.0,
+      "comfort_intervention_rate": 0.2447411003236246,
+      "family": "crossing",
+      "n_episodes": 24,
+      "override_rate": 0.13713592233009708,
+      "path_efficiency": 0.0,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.387135922330097,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.041666666666666664,
+      "comfort_intervention_rate": 0.018489583333333334,
+      "family": "crossing",
+      "n_episodes": 24,
+      "override_rate": 0.05911458333333333,
+      "path_efficiency": 0.0,
+      "policy": "improved",
+      "safety_intervention_rate": 0.92578125,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.1985580956375839,
+      "family": "double_corridor",
+      "n_episodes": 24,
+      "override_rate": 0.4275167785234899,
+      "path_efficiency": 0.041666666666666664,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.4528156459731543,
+      "success_rate": 0.041666666666666664
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.1767633988461285,
+      "family": "double_corridor",
+      "n_episodes": 24,
+      "override_rate": 0.4848425500468387,
+      "path_efficiency": 0.16666666666666666,
+      "policy": "improved",
+      "safety_intervention_rate": 0.4946831893677011,
+      "success_rate": 0.16666666666666666
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.20940660847080295,
+      "family": "loop_ward",
+      "n_episodes": 24,
+      "override_rate": 0.11439000831940845,
+      "path_efficiency": 0.375,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.1381329081022588,
+      "success_rate": 0.375
+    },
+    {
+      "collision_rate": 0.08333333333333333,
+      "comfort_intervention_rate": 0.35109672891435223,
+      "family": "loop_ward",
+      "n_episodes": 24,
+      "override_rate": 0.03335274480899177,
+      "path_efficiency": 0.6666666666666666,
+      "policy": "improved",
+      "safety_intervention_rate": 0.04656431554546318,
+      "success_rate": 0.6666666666666666
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.25221558714679165,
+      "family": "open_clutter",
+      "n_episodes": 24,
+      "override_rate": 0.0,
+      "path_efficiency": 0.9583333333333334,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.0,
+      "success_rate": 0.9583333333333334
+    },
+    {
+      "collision_rate": 0.0,
+      "comfort_intervention_rate": 0.24991790192426533,
+      "family": "open_clutter",
+      "n_episodes": 24,
+      "override_rate": 0.0008172933661116698,
+      "path_efficiency": 0.9583333333333334,
+      "policy": "improved",
+      "safety_intervention_rate": 0.0,
+      "success_rate": 0.9583333333333334
+    },
+    {
+      "collision_rate": 0.6666666666666666,
+      "comfort_intervention_rate": 0.28198856172518205,
+      "family": "slalom",
+      "n_episodes": 24,
+      "override_rate": 0.19375890548679178,
+      "path_efficiency": 0.0,
+      "policy": "fixed_blend",
+      "safety_intervention_rate": 0.21811814454071035,
+      "success_rate": 0.0
+    },
+    {
+      "collision_rate": 0.5833333333333334,
+      "comfort_intervention_rate": 0.26619158198653187,
+      "family": "slalom",
+      "n_episodes": 24,
+      "override_rate": 0.22270697558760907,
+      "path_efficiency": 0.0,
+      "policy": "improved",
+      "safety_intervention_rate": 0.24167025283187904,
+      "success_rate": 0.0
+    }
+  ],
+  "improved": {
+    "collision_rate": {
+      "ci95_high": 0.2,
+      "ci95_low": 0.08333333333333333,
+      "mean": 0.14166666666666666,
+      "scenario_se": 0.05444429526176005
+    },
+    "comfort_intervention_rate": {
+      "ci95_high": 0.23841999727956228,
+      "ci95_low": 0.18509551674460967,
+      "mean": 0.21249183900092225,
+      "scenario_se": 0.028067535416259642
+    },
+    "intervention_rate": {
+      "ci95_high": 0.624625121575802,
+      "ci95_low": 0.5230204491105143,
+      "mean": 0.5725123875602162,
+      "scenario_se": 0.06010544122371134
+    },
+    "mean_steps": {
+      "ci95_high": 150.54166666666666,
+      "ci95_low": 141.21666666666667,
+      "mean": 146.09166666666667,
+      "scenario_se": 4.146662065631791
+    },
+    "min_clearance_m": {
+      "ci95_high": 0.3764096856900568,
+      "ci95_low": 0.30435070152494226,
+      "mean": 0.3410413205730291,
+      "scenario_se": 0.039687866059546835
+    },
+    "n_episodes": 120,
+    "n_scenarios": 20,
+    "override_rate": {
+      "ci95_high": 0.20125691569151044,
+      "ci95_low": 0.12018495910953558,
+      "mean": 0.1601668294285769,
+      "scenario_se": 0.05152020259181651
+    },
+    "path_efficiency": {
+      "ci95_high": 0.44166666666666665,
+      "ci95_low": 0.275,
+      "mean": 0.35833333333333334,
+      "scenario_se": 0.09230242056471359
+    },
+    "safety_intervention_rate": {
+      "ci95_high": 0.41139067980404215,
+      "ci95_low": 0.27739574185205546,
+      "mean": 0.3417398015490087,
+      "scenario_se": 0.08377766627802048
+    },
+    "success_rate": {
+      "ci95_high": 0.4583333333333333,
+      "ci95_low": 0.26666666666666666,
+      "mean": 0.35833333333333334,
+      "scenario_se": 0.09230242056471359
+    }
+  },
+  "mcnemar_vs_fixed_blend": {
+    "n_baseline_only": 2,
+    "n_improved_only": 12,
+    "p_value": 0.012939453125
+  },
+  "notes": [
+    "V10 introduces a hard safety shield, frontal dynamic-conflict detection, long-horizon side-pass scoring, and a persistent safe-fail wait mode for stacked same-lane plus cross-traffic conflicts.",
+    "Evaluation here was run sequentially over 20 held-out seeds x 2 user models x 3 user seeds = 120 episodes per policy."
+  ],
+  "selected_params": {
+    "adaptive_threshold": true,
+    "agreement": 0.0,
+    "backtracking_penalty": 1.25,
+    "caution_speed_mps": 0.05,
+    "caution_ttc_s": 1.35,
+    "clearance_gain": 1.6,
+    "emergency_ttc_s": 0.9,
+    "goal_progress_gain": 4.6,
+    "heading_gain": 0.7,
+    "horizon": 2,
+    "margin": 0.0,
+    "path_progress_gain": 5.8,
+    "risk_penalty": 0.0,
+    "risky_horizon": 4,
+    "safety_buffer_adjust_m": 0.0,
+    "safety_penalty": 16.0,
+    "samples": 20,
+    "smooth_angular_gain": 0.18,
+    "smooth_linear_gain": 0.12,
+    "speed_cap_mps": 0.18,
+    "ttc_penalty": 7.5,
+    "turn_penalty": 0.22,
+    "use_blind_corner_slowdown": true,
+    "use_dynamic_prediction": true,
+    "use_lattice_scoring": true,
+    "use_reliability_estimation": true,
+    "user_agreement_blend": 0.35,
+    "user_agreement_gain": 0.35,
+    "wait_bonus": 2.4,
+    "yield_hold_steps": 5
+  }
+}
