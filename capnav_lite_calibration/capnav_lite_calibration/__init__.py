@@ -1,1 +1,0 @@
-# CapNav-Lite calibration package.
